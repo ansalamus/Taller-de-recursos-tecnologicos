@@ -1,4 +1,4 @@
-# :book: 2. Activa el Micrófono y Graba tu Voz.
+# :book: 2. Activar el Micrófono y Grabar la Voz.
 
 Audacity puede grabar distintos tipos de micrófonos y otros dispositivos de audio.
 
