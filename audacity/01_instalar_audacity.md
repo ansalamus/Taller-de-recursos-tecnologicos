@@ -8,21 +8,21 @@ Para instalar audacity siga los siguientes pasos:
 
     ||
     |:--:|
-    |![i](images/audacity_01.png)|
+    |![i](img/audacity_01.png)|
     |Fig 1. Buscar audacity|
 
 2. Haga click en el vínculo [Audacity ® | Free, open source, cross-platform audio software ...](https://www.audacityteam.org/)
 
     ||
     |:--:|
-    |![i](images/audacity_02.png)|
+    |![i](img/audacity_02.png)|
     |Fig 2. Hacer click en [Audacity ® | Free, open source, cross-platform audio software](https://www.audacityteam.org/)|
 
 3. Presione el botón de `DOWNLOAD AUDACITY` (descarga).
 
     ||
     |:--:|
-    |![i](images/audacity_03.png)|
+    |![i](img/audacity_03.png)|
     |Fig 3. Iniciar descarga|
 
 
@@ -30,14 +30,14 @@ Para instalar audacity siga los siguientes pasos:
 
     ||
     |:--:|
-    |![i](images/audacity_04.png)|
+    |![i](img/audacity_04.png)|
     |Fig 4. Guardar ejecutable|
 
 5. Inicie archivo ejecutable y en la pantalla _"Do you want to allow this app to make changes to your device"_ responda `Yes`.
 
     ||
     |:--:|
-    |![i](images/audacity_05.png)|
+    |![i](img/audacity_05.png)|
     |Fig 5. "Do you want to allow this app to make changes to your device"|
 
 
@@ -45,7 +45,7 @@ Para instalar audacity siga los siguientes pasos:
 
     ||
     |:--:|
-    |![i](images/audacity_06.png)|
+    |![i](img/audacity_06.png)|
     |Fig 6. Idioma del instalador|
 
 
@@ -53,7 +53,7 @@ Para instalar audacity siga los siguientes pasos:
 
     ||
     |:--:|
-    |![i](images/audacity_07.png)|
+    |![i](img/audacity_07.png)|
     |Fig 7. Welcome|
 
 
@@ -61,7 +61,7 @@ Para instalar audacity siga los siguientes pasos:
 
     ||
     |:--:|
-    |![i](images/audacity_08.png)|
+    |![i](img/audacity_08.png)|
     |Fig 8. Licencia|
 
 
@@ -69,7 +69,7 @@ Para instalar audacity siga los siguientes pasos:
 
     ||
     |:--:|
-    |![i](images/audacity_09.png)|
+    |![i](img/audacity_09.png)|
     |Fig 9. Directorio destino|
 
 
@@ -79,7 +79,7 @@ Para instalar audacity siga los siguientes pasos:
 
     ||
     |:--:|
-    |![i](images/audacity_10.png)|
+    |![i](img/audacity_10.png)|
     |Fig 10. Acceso directo a escritorio|
 
 
@@ -89,7 +89,7 @@ Para instalar audacity siga los siguientes pasos:
 
     ||
     |:--:|
-    |![i](images/audacity_11.png)|
+    |![i](img/audacity_11.png)|
     |Fig 11. Lanzar applicación|
 
 
@@ -97,7 +97,7 @@ Para instalar audacity siga los siguientes pasos:
 
     ||
     |:--:|
-    |![i](images/audacity_12.png)|
+    |![i](img/audacity_12.png)|
     |Fig 12. Verificación de actualización| 
 
 
@@ -107,7 +107,7 @@ Para instalar audacity siga los siguientes pasos:
 
     ||
     |:--:|
-    |![i](images/audacity_13.png)|
+    |![i](img/audacity_13.png)|
     |Fig 13. Bienvenida| 
 
 
@@ -115,7 +115,7 @@ Para instalar audacity siga los siguientes pasos:
 
     ||
     |:--:|
-    |![i](images/audacity_14.png)|
+    |![i](img/audacity_14.png)|
     |Fig 13. Bienvenida| 
 
 
