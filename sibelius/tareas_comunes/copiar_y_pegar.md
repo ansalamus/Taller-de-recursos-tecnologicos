@@ -3,50 +3,11 @@
 
 # :clipboard: Copiar y Pegar
 
-Para seleccionar los objetos a copiar siga cualquiera de los siguientes pasos:
+## 1. Seleccione los objetos
 
+En primer lugar,  [:pencil: seleccione los objetos](./seleccionar.md) que desea copiar.
 
-## Opciones de selección
-
-- **Una nota**: haga clic sobre la nota a seleccionar. Ésta se debe colorear de azul.
-
-    ||
-    |:--:|
-    |![i](img/seleccionar_nota_01.png)|
-    |Fig. 1 Seleccionar nota|
-
-  
-- **Varias notas**: haga clic sobre la primera nota, después mientras sostiene la tecla Mayus (Shift), presione la flecha derecha :arrow_right: para continuar la selección. Las notas seleccionadas se colorean de azul.
-
-    ||
-    |:--:|
-    |![i](img/seleccionar_nota_02.png)|
-    |Fig. 2 Seleccionar notas|
-
-- **Un compás**: haga clic sobre la el centro del pentagrama que desea seleccionar. Éste se debe colorear de azul.
-
-- **Varios compases**: haga clic sobre centro del pentagrama que desea seleccionar. Después mientras sostiene la tecla Mayus (Shift), presione la flecha derecha :arrow_right: para continuar la selección. Los compases seleccionados se colorean de azul. 
-
-    ||
-    |:--:|
-    |![i](img/seleccionar_nota_03.png)|
-    |Fig. 3 Seleccionar varios compases|
-
-- **Todos los compases**: haga triple clic sobre el centro de un pentagrama. Todos los pentagramas se colorearán de azul.
-
-    ||
-    |:--:|
-    |![i](img/seleccionar_nota_04.png)|
-    |Fig. 4 Seleccionar todos los compases|
-
-- **Un sistema**: haga clic sobre el centro de un penagrama. Después mientras sostiene la tecla Mayus (Shift), dé clic sobre el centro de otro pentagrama distinto.
-
-    ||
-    |:--:|
-    |![i](img/seleccionar_nota_05.png)|
-    |Fig. 5 Seleccionar un sistema|
-
-## Copiar
+## 2. Copiar
 
 Una vez seleccionados los objetos a deseados, proceda a realizar cualquiera de las siguientes acciones:
 
@@ -58,7 +19,7 @@ Una vez seleccionados los objetos a deseados, proceda a realizar cualquiera de l
     |![i](img/copiar_01.png)|
     |Fig. 6 Copiar|
 
-## Pegar
+## 3. Pegar
 
 Después de seleccionar y copiar los objetos proceda con cualquiera de las siguientes acciones:
 
