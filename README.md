@@ -31,6 +31,8 @@ Para conocer más de talles de la materia seleccione el [contenido del programa]
 1. [Transcribir una obra coral](sibelius/proyectos/02_transcribir_una_obra_coral/01_acerca_del_proyecto.md)
 
 
+2. [Transcribir una obra para piano](sibelius/proyectos/03_transcribir_una_obra_de_piano/01_acerca_del_proyecto.md)
+
 ### Solución a problemas 
 - [Sin sonido](sibelius/solucion_a_problemas/sin_sonido.md)
 
