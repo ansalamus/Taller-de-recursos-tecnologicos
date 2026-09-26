@@ -2,8 +2,20 @@
 
 La síntesis de sonido es el método electrónico o digital para crear audio desde cero sin usar un instrumento tradicional. Cada tipo de síntesis utiliza una técnica matemática o de filtrado distinta para modelar las ondas sonoras.
 
+![image](img/tipos/tipos.png)
+
+
 ## 1. Síntesis Aditiva
-- **Diagrama conceptual:** `[Onda 1 (Senoidal)] + [Onda 2 (Senoidal)] + [Onda 3 (Senoidal)] ➔ [Sonido Complejo]`
+
+- **Descripción:** Suma múltiples ondas simples (generalmente senoidales) para construir un sonido complejo desde sus armónicos fundamentales.
+- **Instrumentos Famosos:** 
+  - **Órgano Hammond** (mediante sus barras de tracción/drawbars mecánicas).
+  - **New England Digital Synclavier** (primeros modelos digitales de alta gama).
+
+| **Diagrama conceptual:** |
+|:--:|
+|![image](img/tipos/aditiva.png)|
+
 ```
 [ Señal de Control / Teclado / MIDI ]
                  │
@@ -29,13 +41,21 @@ La síntesis de sonido es el método electrónico o digital para crear audio des
                                                         ▼
                                             [ Señal de Audio Compleja ]
 ```
-- **Descripción:** Suma múltiples ondas simples (generalmente senoidales) para construir un sonido complejo desde sus armónicos fundamentales.
-- **Instrumentos Famosos:** 
-  - **Órgano Hammond** (mediante sus barras de tracción/drawbars mecánicas).
-  - **New England Digital Synclavier** (primeros modelos digitales de alta gama).
+
 
 ## 2. Síntesis Sustractiva
-- **Diagrama conceptual:** `[Onda Rica (Diente de sierra/Cuadrada)] ➔ [Filtro (VCF)] ➔ [Amplificador (VCA)] ➔ [Sonido Esculpido]`
+
+- **Descripción:** Filtra y recorta frecuencias de una onda fuente que ya es rica en armónicos. Es el estándar de la síntesis analógica clásica.
+
+- **Instrumentos Famosos:** 
+  - **Minimoog (Moog)** (el sintetizador monofónico clásico por excelencia).
+  - **Sequential Circuits Prophet-5** (pionero en la polifonía programable).
+  - **Roland Juno-106** / **Jupiter-8**.
+
+| **Diagrama conceptual:** |
+|:--:|
+|![image](img/tipos/sustractiva.png)|
+
 ```
 [ Oscilador (VCO) ] 
        │  (Genera onda rica en armónicos: cuadrada, sierra)
@@ -48,14 +68,19 @@ La síntesis de sonido es el método electrónico o digital para crear audio des
        ▼
   [ Salida de Audio ]
 ```
-- **Descripción:** Filtra y recorta frecuencias de una onda fuente que ya es rica en armónicos. Es el estándar de la síntesis analógica clásica.
-- **Instrumentos Famosos:** 
-  -` **Minimoog (Moog)** (el sintetizador monofónico clásico por excelencia).
-  - **Sequential Circuits Prophet-5** (pionero en la polifonía programable).
-  - **Roland Juno-106** / **Jupiter-8**.
 
 ## 3. Síntesis por Modulación de Frecuencia (FM)
-- **Diagrama conceptual:** `[Modulador (Onda)] ➔ (Modula la Frecuencia) ➔ [Portador (Onda)] ➔ [Salida de Audio]`
+
+- **Descripción:** Altera la frecuencia de una onda (portadora) muy rápidamente usando otra onda (moduladora) para crear timbres complejos, brillantes y metálicos.
+
+- **Instrumentos Famosos:** 
+  - **Yamaha DX7** (el sintetizador digital icónico que definió el sonido de la década de 1980).
+  - **Yamaha TX81Z** (famoso por su bajo digital 'Lately Bass').
+
+| **Diagrama conceptual:** |
+|:--:|
+|![image](img/tipos/fm.png)|
+
 ```
 [ Generador de Envolvente ]       [ Generador de Envolvente ]
             |                                 |
@@ -63,45 +88,56 @@ La síntesis de sonido es el método electrónico o digital para crear audio des
    [ Operador Modulador ] ---------------> [ Operador Portador ] ---> [ Salida de Audio ]
   (Frecuencia e Índice de Modulación)      (Frecuencia Base / Pitch)
 ```
-- **Descripción:** Altera la frecuencia de una onda (portadora) muy rápidamente usando otra onda (moduladora) para crear timbres complejos, brillantes y metálicos.
-- **Instrumentos Famosos:** 
-  - **Yamaha DX7** (el sintetizador digital icónico que definió el sonido de la década de 1980).
-  - **Yamaha TX81Z** (famoso por su bajo digital 'Lately Bass').
 
-## 4. Síntesis por Tabla de Ondas (Wavetable)
-- **Diagrama conceptual:** `[Onda A ➔ Onda B ➔ Onda C] (Interpolación/LFO) ➔ [Forma de Onda Variable]`
-```
-[ Fuentes de Modulación ] ----> (LFO, Envolventes, Velocity)
-           │
-           ▼
-[ Tabla de Ondas (Wavetable) ] -> Contiene una pila de "frames" (ej. 256 formas de onda de un ciclo)
-           │
-           ▼
-[ Escáner / Posición (Index) ] -> Selecciona o interpola suavemente entre las ondas de la tabla
-           │
-           ▼
-[ Oscilador Wavetable ] -------> Produce la señal periódica a la frecuencia (pitch) de la nota pulsada
-           │
-           ▼
-[ Moduladores / Warp ] --------> Modificaciones geométricas de la onda (PWM, Mirror, Sync)
-           │
-           ▼
-[ Filtros (VCF) ] -------------> Recortan o realzan frecuencias armónicas
-           │
-           ▼
-[ Amplificador / Envolvente ] -> Controla la dinámica de volumen (ADSR) de la nota
-           │
-           ▼
-       [ Salida de Audio ]
-```
-- **Descripción:** Reproduce y hace una transición suave (interpolación) a través de una secuencia de formas de onda pregrabadas en una matriz digital.
+## 4. Síntesis por Modelado Físico
+
+- **Descripción:** Utiliza ecuaciones matemáticas avanzadas y algoritmos informáticos para imitar de manera precisa el comportamiento físico y la acústica de instrumentos mecánicos reales.
+
 - **Instrumentos Famosos:** 
-  - **PPG Wave** (pionero en los años 80).
-  - **Waldorf Microwave**.
-  - **Xfer Records Serum** (sintetizador virtual moderno de referencia).
+  - **Yamaha VL1** (primer sintetizador comercial basado completamente en modelado físico).
+  - **Korg Prophecy** / **Z1**.
+
+
+| **Diagrama conceptual:** |
+|:--:|
+|![image](img/tipos/modelado.png)|
+
+```
+[ Controles / Interfaz MIDI ] 
+            │
+            ▼
+┌───────────────────────┐
+│       EXCITADOR       │ ──(Fuerza / Energía inicial)
+└───────────┬───────────┘
+            │
+            ▼
+┌───────────────────────┐
+│      RESONADOR        │ ──(Línea de retardo / Guía de onda con retroalimentación)
+└───────────┬───────────┘
+            │
+            ▼
+┌───────────────────────┐
+│       RADIADOR        │ ──(Filtro de caja / Proyección acústica al aire)
+└───────────┬───────────┘
+            │
+            ▼
+     [ Sonido Final ]
+```
+
+
 
 ## 5. Síntesis Granular
-- **Diagrama conceptual:** `[Muestra de Audio] ➔ [Picar en microgramos de 1-100ms] ➔ [Reorganizar/Esparcir] ➔ [Nuevas Texturas]`
+
+- **Descripción:** Divide una muestra de audio existente en microfragmentos llamados "granos" y los reorganiza en densidades y tonos totalmente nuevos.
+
+- **Instrumentos Famosos:** 
+  - **Spectrasonic Omnisphere** (motor granular potente integrado).
+  - **Glitchmachines Palindrome** / **Tasty Chips GR-1** (sintetizador granular de hardware dedicado).
+
+| **Diagrama conceptual:** |
+|:--:|
+|![image](img/tipos/granular.png)|
+
 ```
 [ AUDIO DE ENTRADA / ARCHIVO DE MUESTRA ]
                   │
@@ -130,39 +166,46 @@ La síntesis de sonido es el método electrónico o digital para crear audio des
                   ▼
      [ AUDIO DE SALIDA / TEXTURA ]
 ```
-- **Descripción:** Divide una muestra de audio existente en microfragmentos llamados "granos" y los reorganiza en densidades y tonos totalmente nuevos.
-- **Instrumentos Famosos:** 
-  - **Spectrasonic Omnisphere** (motor granular potente integrado).
-  - **Glitchmachines Palindrome** / **Tasty Chips GR-1** (sintetizador granular de hardware dedicado).
 
-## 6. Síntesis por Modelado Físico
-- **Diagrama conceptual:** `[Excitador (Impulso/Arco)] ➔ [Resonador (Tubo/Cuerda Virtual)] ➔ [Ecuaciones Matemáticas]`
-```
-[ Controles / Interfaz MIDI ] 
-            │
-            ▼
-┌───────────────────────┐
-│       EXCITADOR       │ ──(Fuerza / Energía inicial)
-└───────────┬───────────┘
-            │
-            ▼
-┌───────────────────────┐
-│      RESONADOR        │ ──(Línea de retardo / Guía de onda con retroalimentación)
-└───────────┬───────────┘
-            │
-            ▼
-┌───────────────────────┐
-│       RADIADOR        │ ──(Filtro de caja / Proyección acústica al aire)
-└───────────┬───────────┘
-            │
-            ▼
-     [ Sonido Final ]
-```
-- **Descripción:** Utiliza ecuaciones matemáticas avanzadas y algoritmos informáticos para imitar de manera precisa el comportamiento físico y la acústica de instrumentos mecánicos reales.
-- **Instrumentos Famosos:** 
-  - **Yamaha VL1** (primer sintetizador comercial basado completamente en modelado físico).
-  - **Korg Prophecy** / **Z1**.
 
+## 6. Síntesis por Tabla de Ondas (Wavetable)
+
+- **Descripción:** Reproduce y hace una transición suave (interpolación) a través de una secuencia de formas de onda pregrabadas en una matriz digital.
+
+- **Instrumentos Famosos:** 
+  - **PPG Wave** (pionero en los años 80).
+  - **Waldorf Microwave**.
+  - **Xfer Records Serum** (sintetizador virtual moderno de referencia).
+
+
+| **Diagrama conceptual:** |
+|:--:|
+|![image](img/tipos/tabla_de_ondas.png)|
+
+```
+[ Fuentes de Modulación ] ----> (LFO, Envolventes, Velocity)
+           │
+           ▼
+[ Tabla de Ondas (Wavetable) ] -> Contiene una pila de "frames" (ej. 256 formas de onda de un ciclo)
+           │
+           ▼
+[ Escáner / Posición (Index) ] -> Selecciona o interpola suavemente entre las ondas de la tabla
+           │
+           ▼
+[ Oscilador Wavetable ] -------> Produce la señal periódica a la frecuencia (pitch) de la nota pulsada
+           │
+           ▼
+[ Moduladores / Warp ] --------> Modificaciones geométricas de la onda (PWM, Mirror, Sync)
+           │
+           ▼
+[ Filtros (VCF) ] -------------> Recortan o realzan frecuencias armónicas
+           │
+           ▼
+[ Amplificador / Envolvente ] -> Controla la dinámica de volumen (ADSR) de la nota
+           │
+           ▼
+       [ Salida de Audio ]
+```
 
 ---
 

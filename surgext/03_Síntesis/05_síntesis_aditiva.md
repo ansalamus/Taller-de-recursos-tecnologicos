@@ -12,6 +12,10 @@ La síntesis aditiva en acústica y audio es una técnica de creación de sonido
 
 - **Envolventes temporales**: Se aplican controles de volumen independientes (envolventes) a lo largo del tiempo para cada componente, logrando que el sonido evolucione de manera realista.
 
+| **Diagrama conceptual:** |
+|:--:|
+|![image](img/tipos/aditiva.png)|
+
 ## :musical_note: Síntesis Aditiva en Surge XT
 
 Puedes realizar síntesis aditiva básica en Surge XT utilizando el oscilador ((Alias)) y seleccionando la forma de onda ((Additive)).
