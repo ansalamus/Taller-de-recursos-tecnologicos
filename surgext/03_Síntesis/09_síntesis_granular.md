@@ -114,3 +114,16 @@ Para una exitación cíclica elije los siguientes parámetros.
 
 
 ![image](img/granular/granu07.png)
+
+
+---
+
+## :book: Referencias Bibliográficas
+
+- **Surge Synth Team**. (2026). *Surge XT User Manual*. GitHub Pages. [https://surge-synthesizer.github.io/manual-xt/](https://surge-synthesizer.github.io/manual-xt/)
+
+- **Surge Synth Team**. (2021). *Nimbus - Mutable Instruments Clouds inspired granular effect* (Issue #3756). GitHub. [https://github.com/surge-synthesizer/surge/issues/3756](https://github.com/surge-synthesizer/surge/issues/3756)
+
+- **Synth Anatomy**. (2021, 22 de abril). *Surge 1.9 Free Synth Plugin, 4 New OSC Types, New Effects (MI Clouds) & More*. [https://synthanatomy.com/2021/04/surge-1-9-free-synth-plugin-4-new-osc-types-new-effects-mi-clouds-more.html](https://synthanatomy.com/2021/04/surge-1-9-free-synth-plugin-4-new-osc-types-new-effects-mi-clouds-more.html)
+
+- **VCV Library**. (2025). *Surge XT Window VCO*. [https://library.vcvrack.com/SurgeXTRack/SurgeXTOSCWindow](https://library.vcvrack.com/SurgeXTRack/SurgeXTOSCWindow)
