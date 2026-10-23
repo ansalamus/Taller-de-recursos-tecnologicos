@@ -15,7 +15,7 @@ Inspirado en módulos macro como *Clouds* de Mutable Instruments, este método g
 
 * **Size / Window:** Cambia la longitud o el tamaño de cada grano individual.
 
-### 2. Efecto Granular (Nimbus) en FX
+### 2. Efecto Granular (Nimbus) en FX\
 
 Si prefieres procesar un sonido base externo o interno (como una onda de sierra o tablas de ondas):
 

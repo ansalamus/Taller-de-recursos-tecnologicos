@@ -59,6 +59,10 @@ Para conocer más de talles de la materia seleccione el [contenido del programa]
     - [Tipos de síntesis](surgext/03_Síntesis/04_tipos_de_síntesis.md).
     - [Síntesis aditiva](surgext/03_Síntesis/05_síntesis_aditiva.md).
     - [Síntesis Sustractiva](surgext/03_Síntesis/06_síntesis_sustractiva.md).
+    - [Síntesis por modulación FM](surgext/03_Síntesis/07_síntesis_fm.md).
+    - [Vibrato con FM](surgext/03_Síntesis/08_vibrato_con_fm.md).
+    - [Síntesis granular](surgext/03_Síntesis/09_síntesis_granular.md).
+    - [Síntesis por tabla de onda](surgext/03_Síntesis/10_síntesis_tabla_de_onda.md).
 
 ## :headphones: Online Sequencer
 1. [Registrarse en la aplicación](https://onlinesequencer.net/)
