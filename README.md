@@ -64,6 +64,12 @@ Para conocer más de talles de la materia seleccione el [contenido del programa]
     - [Síntesis granular](surgext/03_Síntesis/09_síntesis_granular.md).
     - [Síntesis por tabla de onda](surgext/03_Síntesis/10_síntesis_tabla_de_onda.md).
 
+## :headphones: Reaper
+1. [Instalar Reaper]().
+2. [Insertar un instrumento virtual con el plugin the Surge XT]().
+3. [Crear una pista (track) con el plugin de batería])().
+
+
 ## :headphones: Online Sequencer
 1. [Registrarse en la aplicación](https://onlinesequencer.net/)
 2. Crear una nueva secuencia.
